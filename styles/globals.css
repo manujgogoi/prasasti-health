@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-container {
+  background-image: url('/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
 /* html,
 body {
   padding: 0;
