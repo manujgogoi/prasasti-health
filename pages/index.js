@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -33,12 +34,16 @@ export default function Home() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-items-center pt-10 pb-10 font-semibold">
           <div className="flex flex-col items-center cursor-pointer">
             <div>
-              <Image
-                alt="Ayurveda Logo"
-                src="/images/circle.png"
-                width={100}
-                height={100}
-              />
+              <Link href="/ayurveda">
+                <a>
+                  <Image
+                    alt="Ayurveda Logo"
+                    src="/images/circle.png"
+                    width={100}
+                    height={100}
+                  />
+                </a>
+              </Link>
             </div>
             <div>
               <p className="">Prasasti Ayurveda</p>
@@ -87,12 +92,16 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center cursor-pointer">
             <div>
-              <Image
-                alt="Teleservice Logo"
-                src="/images/circleTeleservice.png"
-                width={100}
-                height={100}
-              />
+              <Link href="/teleservices">
+                <a>
+                  <Image
+                    alt="Teleservice Logo"
+                    src="/images/circleTeleservice.png"
+                    width={100}
+                    height={100}
+                  />
+                </a>
+              </Link>
             </div>
             <div>
               <p className="pl-5 md:pl-0">

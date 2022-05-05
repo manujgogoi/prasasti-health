@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="container bg-green-100 mx-auto p-5 rounded-t-lg">
-      <div className="flex items-center">
+    <div className="container bg-green-200 mx-auto p-5 rounded-t-lg">
+      <div className="flex flex-wrap items-center">
         {/* Brand */}
         <div className="flex-none w-20 md:w-24 mr-2">
           <Image
@@ -20,7 +20,7 @@ const Header = () => {
           <span className="text-xl md:text-3xl">Healthcare</span>
         </div>
         {/* Header Right section */}
-        <div className="flex-none flex flex-col">
+        <div className="flex-none mt-5 md:mt-0 flex flex-col">
           <div className="flex flex-row items-center cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"

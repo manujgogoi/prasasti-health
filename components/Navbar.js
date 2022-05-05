@@ -60,19 +60,19 @@ const Navbar = () => {
           <div className="md:hidden">
             <ul className="pl-5 pb-5 pr-5">
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                Home
+                <Link href="/">Home</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                Services
+                <Link href="/services">Services</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                Activities
+                <Link href="/activities">Activities</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                Photos
+                <Link href="/">Photos</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                Contact Us
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

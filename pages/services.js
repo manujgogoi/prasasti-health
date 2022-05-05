@@ -10,7 +10,8 @@ const services = () => {
     <div className="main-container pt-20">
       <Header />
       <Navbar />
-      <main className="container mx-auto bg-white p-5 pt-16 pb-16 opacity-90">
+      <main className="container mx-auto bg-white p-5 pt-10 pb-16 opacity-90">
+        <h2 className="text-4xl font-thin pb-5">Services</h2>
         <div>
           <p className="text-lg">
             Situated at the heart of the Guwahati city,{" "}
@@ -36,7 +37,9 @@ const services = () => {
               <Link href="/ayurveda">Prasasti Ayurveda</Link>
             </li>
             <li className="text-green-600 font-semibold cursor-pointer hover:underline hover:decoration-2">
-              Prasasti Institute of Indian System of Medicine
+              <Link href="/">
+                Prasasti Institute of Indian System of Medicine
+              </Link>
             </li>
             <li className="text-green-600 font-semibold cursor-pointer hover:underline hover:decoration-2">
               Prasasti Yogalaya
@@ -45,7 +48,9 @@ const services = () => {
               Prasasti Healthcare
             </li>
             <li className="text-green-600 font-semibold cursor-pointer hover:underline hover:decoration-2">
-              Prasasti Teleservices and Medicines(Online)
+              <Link href="/teleservices">
+                Prasasti Teleservices and Medicines(Online)
+              </Link>
             </li>
           </ul>
         </div>
