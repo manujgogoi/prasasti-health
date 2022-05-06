@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link href="/activities">Activities</Link>
           </li>
           <li className="text-center pl-6 cursor-pointer hover:text-gray-300">
-            Photos
+            <Link href="/photos">Photos</Link>
           </li>
           <li className="text-center pl-6 cursor-pointer hover:text-gray-300">
             <Link href="/contact">Contact Us</Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <Link href="/activities">Activities</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
-                <Link href="/">Photos</Link>
+                <Link href="/photos">Photos</Link>
               </li>
               <li className="cursor-pointer hover:bg-green-700 pl-1 pt-2 pb-2">
                 <Link href="/contact">Contact Us</Link>
