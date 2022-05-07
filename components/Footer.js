@@ -73,17 +73,39 @@ const Footer = () => {
 
           <div className="pt-5 text-gray-400 grid grid-cols-2 pb-5">
             <div className="text-xl font-semibold pb-5 col-span-2">Links</div>
-            <div>Home</div>
-            <div>Services</div>
-            <div>Activities</div>
-            <div>Photos</div>
-            <div>Contact us</div>
-            <div>Brochures</div>
-            <div>Ayurveda</div>
-            <div>Institute</div>
-            <div>Yogalaya</div>
-            <div>Healthcare</div>
-            <div>Teleservices</div>
+            <div>
+              <Link href="/">Home</Link>
+            </div>
+            <div>
+              <Link href="/services">Services</Link>
+            </div>
+            <div>
+              <Link href="/activities">Activities</Link>
+            </div>
+            <div>
+              <Link href="/photos">Photos</Link>
+            </div>
+            <div>
+              <Link href="/contact">Contact us</Link>
+            </div>
+            <div>
+              <Link href="/downloads">Brochures</Link>
+            </div>
+            <div>
+              <Link href="/ayurveda">Ayurveda</Link>
+            </div>
+            <div>
+              <Link href="/institute">Institute</Link>
+            </div>
+            <div>
+              <Link href="/yogalaya">Yogalaya</Link>
+            </div>
+            <div>
+              <Link href="/healthcare">Healthcare</Link>
+            </div>
+            <div>
+              <Link href="/teleservices">Teleservices</Link>
+            </div>
           </div>
         </div>
       </div>
